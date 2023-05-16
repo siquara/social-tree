@@ -1,0 +1,59 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--body-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+  width: 100%;
+  margin: 0 auto;
+}
+
+.perfil-container {
+  margin-top: 6.25rem;
+  text-align: center;
+  color: var(--purple);
+  margin-bottom: 1.875rem
+}
+
+.perfil-container-img{
+  width: 12.5rem;
+  border: 0.125rem solid var(--purple);
+  border-radius:50%;
+  padding: .25rem;
+  margin-bottom: .9rem;
+}
+
+.links-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4.25rem;
+}
+
+.links-container-link{
+  text-decoration: none;
+  color: var(--purple);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 0.125rem solid var(--purple);
+  border-radius: 0.25rem;
+  padding: 0.9rem 10rem;
+  margin-bottom: .9rem;
+}
+.social-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.25rem;
+
+  padding-bottom: 2rem;
+}
